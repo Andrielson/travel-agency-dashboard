@@ -7,6 +7,14 @@
       "dependencies": {
         "@react-router/node": "7.10.1",
         "@react-router/serve": "7.10.1",
+        "@syncfusion/ej2-base": "^32.1.19",
+        "@syncfusion/ej2-react-buttons": "^32.1.21",
+        "@syncfusion/ej2-react-charts": "^32.1.19",
+        "@syncfusion/ej2-react-dropdowns": "^32.1.21",
+        "@syncfusion/ej2-react-grids": "^32.1.21",
+        "@syncfusion/ej2-react-maps": "^32.1.21",
+        "@syncfusion/ej2-react-navigations": "^32.1.19",
+        "@syncfusion/ej2-react-splitbuttons": "^32.1.19",
         "clsx": "^2.1.1",
         "isbot": "^5.1.31",
         "react": "^19.2.3",
@@ -201,6 +209,62 @@
     "@rollup/rollup-win32-x64-gnu": ["@rollup/rollup-win32-x64-gnu@4.54.0", "", { "os": "win32", "cpu": "x64" }, "sha512-dzAc53LOuFvHwbCEOS0rPbXp6SIhAf2txMP5p6mGyOXXw5mWY8NGGbPMPrs4P1WItkfApDathBj/NzMLUZ9rtQ=="],
 
     "@rollup/rollup-win32-x64-msvc": ["@rollup/rollup-win32-x64-msvc@4.54.0", "", { "os": "win32", "cpu": "x64" }, "sha512-hYT5d3YNdSh3mbCU1gwQyPgQd3T2ne0A3KG8KSBdav5TiBg6eInVmV+TeR5uHufiIgSFg0XsOWGW5/RhNcSvPg=="],
+
+    "@syncfusion/ej2-base": ["@syncfusion/ej2-base@32.1.19", "", { "dependencies": { "@syncfusion/ej2-icons": "~32.1.19" }, "bin": { "syncfusion-license": "bin/syncfusion-license.js" } }, "sha512-kWxMNM/cZh6yHQlPM5Mrquqdf9SedNN1WBhscxFtlVsIdqqaZq8FNc2ofuMXFeohti/KaWct5jtzwKo+VFRrkw=="],
+
+    "@syncfusion/ej2-buttons": ["@syncfusion/ej2-buttons@32.1.21", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19" } }, "sha512-hnLVdiUScrpvheNyHg+KmFCVCOyEi0s4UspT59+5NN2NDIWw8BsZbtx/XIiqrYtDn2orLUwIX3NhKVOLjijvhg=="],
+
+    "@syncfusion/ej2-calendars": ["@syncfusion/ej2-calendars@32.1.21", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-buttons": "~32.1.21", "@syncfusion/ej2-inputs": "~32.1.20", "@syncfusion/ej2-lists": "~32.1.19", "@syncfusion/ej2-popups": "~32.1.19" } }, "sha512-ps5+WyWhX+vwMm2DpTwRXP0lc7Lvak0cA9BhVE8pnkbR3IZfogo0pMQpVeJcnAmmhoihJoC9Pc8UyBAcsde/Qg=="],
+
+    "@syncfusion/ej2-charts": ["@syncfusion/ej2-charts@32.1.19", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-calendars": "~32.1.19", "@syncfusion/ej2-data": "~32.1.19", "@syncfusion/ej2-excel-export": "~32.1.19", "@syncfusion/ej2-navigations": "~32.1.19", "@syncfusion/ej2-pdf-export": "~32.1.19", "@syncfusion/ej2-svg-base": "~32.1.19" } }, "sha512-q9YkMTw4AEh8XcCo0HBFHEDGCV+McWq2gf8cPxKHCexcLF1iooRtG6CLSCmMb5Op0Fg4wIeIEEKcGYhf8iwoow=="],
+
+    "@syncfusion/ej2-compression": ["@syncfusion/ej2-compression@32.1.19", "", { "dependencies": { "@syncfusion/ej2-file-utils": "~32.1.19" } }, "sha512-EzCpNNRI/F2KQkD6mhrMcDiQ7pbY5GZik80EQctFXyF87Ov5nn9+8qfMr42gM5tTwKLBtCgFXpj4sIlkwY2gGA=="],
+
+    "@syncfusion/ej2-data": ["@syncfusion/ej2-data@32.1.19", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19" } }, "sha512-/MeGbdM3TxesOS0zj8xUQ6dscD7KHU81yS7d5cT2h4L9H0DgmOMpvVBH3PP0cbDGjikch0nI36ghqyc2zNxUVg=="],
+
+    "@syncfusion/ej2-dropdowns": ["@syncfusion/ej2-dropdowns@32.1.21", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-data": "~32.1.19", "@syncfusion/ej2-inputs": "~32.1.20", "@syncfusion/ej2-lists": "~32.1.19", "@syncfusion/ej2-navigations": "~32.1.19", "@syncfusion/ej2-notifications": "~32.1.19", "@syncfusion/ej2-popups": "~32.1.19" } }, "sha512-/zQf9KnmdZK5g5h+/+/ohus9mNeZycKf6lD0oAMZk4mHCgp0nzEDdF7CXrTM54WivH7A9WfHVoTiGwLovhTtJA=="],
+
+    "@syncfusion/ej2-excel-export": ["@syncfusion/ej2-excel-export@32.1.19", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-compression": "~32.1.19" } }, "sha512-BF05J1CJQTSFKe3u+bKM99t81N5Tbhe9y3B1LCKWKT7T6HOV5hPqQKxENeJpOiSttwimS89VCqsjmgK3XNGrPw=="],
+
+    "@syncfusion/ej2-file-utils": ["@syncfusion/ej2-file-utils@32.1.19", "", {}, "sha512-B33eTLbuxU6fOAe7KjxdBvfonm835oXNWee140o3IEMHTk1BGj1xL5bKRS8uqmVkrmuH0JacHzBkVM2P4yYSvQ=="],
+
+    "@syncfusion/ej2-grids": ["@syncfusion/ej2-grids@32.1.21", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-buttons": "~32.1.21", "@syncfusion/ej2-calendars": "~32.1.21", "@syncfusion/ej2-compression": "~32.1.19", "@syncfusion/ej2-data": "~32.1.19", "@syncfusion/ej2-dropdowns": "~32.1.21", "@syncfusion/ej2-excel-export": "~32.1.19", "@syncfusion/ej2-file-utils": "~32.1.19", "@syncfusion/ej2-inputs": "~32.1.20", "@syncfusion/ej2-lists": "~32.1.19", "@syncfusion/ej2-navigations": "~32.1.19", "@syncfusion/ej2-notifications": "~32.1.19", "@syncfusion/ej2-pdf-export": "~32.1.19", "@syncfusion/ej2-popups": "~32.1.19", "@syncfusion/ej2-splitbuttons": "~32.1.19" } }, "sha512-ytpnGXE7sO3y8C84/pIOP0rdutVvI6+dtn6t8HGsysPkEL1iP6J1DdmpJtfvAriD+oRrQNi/j6LOqJsYjNb6uQ=="],
+
+    "@syncfusion/ej2-icons": ["@syncfusion/ej2-icons@32.1.19", "", {}, "sha512-qZ0NNP0qWQ9EwkakpCwu27ECGEM5Db9dBscBvpZ2rmq1rDDi9d/8VEu6+EmFED5R6Sh3cGVJpI1izw9fsfsKmg=="],
+
+    "@syncfusion/ej2-inputs": ["@syncfusion/ej2-inputs@32.1.20", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-buttons": "~32.1.19", "@syncfusion/ej2-popups": "~32.1.19", "@syncfusion/ej2-splitbuttons": "~32.1.19" } }, "sha512-Q/i5ZLV2+OARcMcHHudHGvSFqG2wlMu6UA5hZAjoEqH/hPWdgnJiE0AZ92C6Ee1awHDlNAESW+VO3TlFRGTxKw=="],
+
+    "@syncfusion/ej2-lists": ["@syncfusion/ej2-lists@32.1.19", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-buttons": "~32.1.19", "@syncfusion/ej2-data": "~32.1.19", "@syncfusion/ej2-popups": "~32.1.19" } }, "sha512-uUwmASVpS3H52aXDNcyfJUljTcG1p1O90Bh6XPbKlXXJ38Np/y8b6kzwgTZgjSzk5OK+hhT6Cgz0QFGgskSeng=="],
+
+    "@syncfusion/ej2-maps": ["@syncfusion/ej2-maps@32.1.21", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-buttons": "~32.1.21", "@syncfusion/ej2-compression": "~32.1.19", "@syncfusion/ej2-data": "~32.1.19", "@syncfusion/ej2-file-utils": "~32.1.19", "@syncfusion/ej2-pdf-export": "~32.1.19", "@syncfusion/ej2-svg-base": "~32.1.19" } }, "sha512-+3oVHx+6V0DGAiDgnLgsB/wOHGQq2Vli8+mV+HeK6SoQ20k0odghBj4/NEFn+FVfAXO3K5dxykiy09xC8HvRmA=="],
+
+    "@syncfusion/ej2-navigations": ["@syncfusion/ej2-navigations@32.1.19", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-buttons": "~32.1.19", "@syncfusion/ej2-data": "~32.1.19", "@syncfusion/ej2-inputs": "~32.1.19", "@syncfusion/ej2-lists": "~32.1.19", "@syncfusion/ej2-popups": "~32.1.19" } }, "sha512-eBPHbkQV0bAwiUJ4qvhh/6co6ElSu5oOaV/T0YlyphnedFU49vFb2CS34YhV5fuEXgq1yViIzbk1xsZTl1VHjg=="],
+
+    "@syncfusion/ej2-notifications": ["@syncfusion/ej2-notifications@32.1.19", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-buttons": "~32.1.19", "@syncfusion/ej2-popups": "~32.1.19" } }, "sha512-fKuBAzHUk7HJV7x6QnA0820vIi9t1EcGfL9CxjTxpKMVhlxIXAo6SFWXGPE4cCbHd8VKnm0VTmezdSZIg95GPw=="],
+
+    "@syncfusion/ej2-pdf-export": ["@syncfusion/ej2-pdf-export@32.1.19", "", { "dependencies": { "@syncfusion/ej2-compression": "~32.1.19" } }, "sha512-uBaydsgjN1TcLIOBJw3SFXucfqxbP9+G6oZybkP96EyZIOKms7H2WkkB+zROgmsR2krGuRyDuJfhW8+tuL6zjA=="],
+
+    "@syncfusion/ej2-popups": ["@syncfusion/ej2-popups@32.1.19", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-buttons": "~32.1.19" } }, "sha512-tLvUwroBP8nlnpX/TmBh9VgDckqnYAgv6weAqVYoS7KC7Osfm+FdB09I82d/448luzD9Vt5Cm51dumLLGjZ6sQ=="],
+
+    "@syncfusion/ej2-react-base": ["@syncfusion/ej2-react-base@32.1.21", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19" } }, "sha512-lO8CYEufJitbR9zrErIDO819yGCjRIBN5+2xnHMKcxuGUIz3u+UoPXQw7vY26jBuaXc4Va9UdXmBdyJbwCGiQA=="],
+
+    "@syncfusion/ej2-react-buttons": ["@syncfusion/ej2-react-buttons@32.1.21", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-buttons": "32.1.21", "@syncfusion/ej2-react-base": "~32.1.21" } }, "sha512-3cWwqTsPWxeUJEFSNYpefvMns6Ua1LZtYFqPnuylzmsqKnFL6UO9Mex8Ca6vscCTi8cAvjizkoxDUhrc0G4tgQ=="],
+
+    "@syncfusion/ej2-react-charts": ["@syncfusion/ej2-react-charts@32.1.19", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-charts": "32.1.19", "@syncfusion/ej2-react-base": "~32.1.19" } }, "sha512-YwZrL5e+19mjzMq7Kyx+1XnVQ/JEwWgCQV2v9q55g1b+6ASLTSFh2YcbI4LC39BNTjs7nqtgSbmOe56W9eEf4Q=="],
+
+    "@syncfusion/ej2-react-dropdowns": ["@syncfusion/ej2-react-dropdowns@32.1.21", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-dropdowns": "32.1.21", "@syncfusion/ej2-react-base": "~32.1.21" } }, "sha512-jCdzUZ9kPHN/P6dODzwTKzCY20Iu4sEqol60CiB4e6EJ27XBrBPqYR2VXQXlaxjOhxKDx3RTnCr/z2OO39RMAw=="],
+
+    "@syncfusion/ej2-react-grids": ["@syncfusion/ej2-react-grids@32.1.21", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-grids": "32.1.21", "@syncfusion/ej2-react-base": "~32.1.21" } }, "sha512-7zvOx4gNF/OUkbfHvW35GDfreEYUkhLsIws763YddZGBTN51eIr0e4TnHI+bjKFtILO/LEuGh0CM3pH4uHmPhw=="],
+
+    "@syncfusion/ej2-react-maps": ["@syncfusion/ej2-react-maps@32.1.21", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-maps": "32.1.21", "@syncfusion/ej2-react-base": "~32.1.21" } }, "sha512-omxUz2hyTcq/K9QivvJ+2OK0rIzmtTAa43TvGuVEIyqjDCJ8ZyPs5HA4BpR5xjmdTZeShqtLPc+JixhqU+wv9A=="],
+
+    "@syncfusion/ej2-react-navigations": ["@syncfusion/ej2-react-navigations@32.1.19", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-navigations": "32.1.19", "@syncfusion/ej2-react-base": "~32.1.19" } }, "sha512-sGny31s3FgUwXd3gboYHu5uomCmqh8B11LTNF8IhWV154FwvUfz+HBC1hjZAAWG3jxjYHgwn7JMoeD6x//SodA=="],
+
+    "@syncfusion/ej2-react-splitbuttons": ["@syncfusion/ej2-react-splitbuttons@32.1.19", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-react-base": "~32.1.19", "@syncfusion/ej2-splitbuttons": "32.1.19" } }, "sha512-q/MOVE7ELAhsT6XfJaxyITlCHlAPj/+EFyoQUJqyokh/iabpPbrrwKx+JrUD5UJwNrfohX0Yl3UIHzOucPheAg=="],
+
+    "@syncfusion/ej2-splitbuttons": ["@syncfusion/ej2-splitbuttons@32.1.19", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19", "@syncfusion/ej2-popups": "~32.1.19" } }, "sha512-KHG4DDBx+uK/eBIRLM+Saa17ScUK+gMj3h0+XQFeDrSynZhwOH9lxdCVUkjpW8lCjEdfKYy7xpe8fV5egNI/cA=="],
+
+    "@syncfusion/ej2-svg-base": ["@syncfusion/ej2-svg-base@32.1.19", "", { "dependencies": { "@syncfusion/ej2-base": "~32.1.19" } }, "sha512-pXjstNDrGrte/rv17711N0IgYCy7gF9pKqEW/hVB8kQqazYLWRvt0Ni2qlFwVua0RQxHd7xmGRxVbS3OrS3r5w=="],
 
     "@tailwindcss/node": ["@tailwindcss/node@4.1.18", "", { "dependencies": { "@jridgewell/remapping": "^2.3.4", "enhanced-resolve": "^5.18.3", "jiti": "^2.6.1", "lightningcss": "1.30.2", "magic-string": "^0.30.21", "source-map-js": "^1.2.1", "tailwindcss": "4.1.18" } }, "sha512-DoR7U1P7iYhw16qJ49fgXUlry1t4CpXeErJHnQ44JgTSKMaZUdf17cfn5mHchfJ4KRBZRFA/Coo+MUF5+gOaCQ=="],
 
